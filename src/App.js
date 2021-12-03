@@ -599,7 +599,6 @@ function App() {
     </div>
   );
 
-  start();
 }
 
 export default App;
