@@ -1073,12 +1073,29 @@ background: rgba(240, 156, 125, 0.164);
 
 .kumanda{
   z-index: 121211;
-  width: 90%;
+  width: 100%;
   position: absolute;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  left: 0;
+    flex-wrap: wrap;
+
 
 }
+.audio{
+  z-index: 121211;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
 .audio > div{
   background-color: rgb(36, 36, 36);
   border-radius: 10px;
@@ -1097,17 +1114,27 @@ h5{
   text-align: center;
 }
 
-.audio{
-  z-index: 121211;
-  position: absolute;
-  width: fit-content;
-  bottom: 0;
-  display: flex;
-  flex-direction: row;
-
-}
 i{
     color: wheat;
     cursor: pointer;
     margin: 5px;
+}
+i:hover{
+   margin-top: 3px;
+}
+.iler{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+@media screen and (max-width: 500px) {
+  h5{
+    display: none;
+  }
+.iler{
+  display: flex;
+  justify-content: space-around;
+}
+
 }

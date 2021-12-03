@@ -381,20 +381,20 @@ function App() {
     }
   };
 
-  // const start = () => {
-  //   opositefast();
-  //   setTimeout(() => {
-  //     tkapat();
-  //     hızlı();
-  //     setTimeout(() => {
-  //       kapat();
-  //       sele();
-  //     }, 1500);
-  //   }, 1500);
-  // };
-  // setTimeout(() => {
-  //   start();
-  // }, 1000);
+  const start = () => {
+    opositefast();
+    setTimeout(() => {
+      tkapat();
+      hızlı();
+      setTimeout(() => {
+        kapat();
+        sele();
+      }, 1500);
+    }, 1500);
+  };
+  setTimeout(() => {
+    start();
+  }, 1000);
 
   const datPlay = () => {
     document.getElementById("datSound").play();
@@ -434,92 +434,121 @@ function App() {
     <div className="App" style={{ backgroundImage: `url(${garage})` }}>
       <div className="container">
         <div className="kumanda">
-          <div className="cakarl">
-            <h5>Çakarlar</h5>
-            <i class="fas fa-window-close" onClick={() => kapat()}>
-              
-            </i>
-            <i class="fas fa-angle-right" onClick={() => acık()}></i>
-            <i class="fas fa-angle-double-right" onClick={() => hızlı()}></i>
-          </div>
-
           <div className="tepe">
             <h5>Tepe Lambası</h5>
-            <i class="fas fa-window-close" onClick={() => tkapat()}>
-              
-            </i>
-            <i class="fas fa-grip-lines" onClick={() => tacık()} ></i>
-            <i  class="far fa-arrow-alt-circle-up" onClick={() => sagsol()}></i>
-            <i class="fas fa-arrow-alt-circle-up" onClick={() => sagsolhızlı()}></i>
-            <i class="fas fa-redo-alt" onClick={() => turn()}></i>
-            <i class="fas fa-sync-alt" onClick={() => turnfast()}></i>
-            <i class="far fa-caret-square-left" onClick={() => oposite()}></i>
-            <i class="fas fa-caret-square-left" onClick={() => opositefast()}></i>
+            <div className="iler">
+              <i class="fas fa-window-close" onClick={() => tkapat()}></i>
+              <i class="fas fa-grip-lines" onClick={() => tacık()}></i>
+              <i
+                class="far fa-arrow-alt-circle-up"
+                onClick={() => sagsol()}
+              ></i>
+              <i
+                class="fas fa-arrow-alt-circle-up"
+                onClick={() => sagsolhızlı()}
+              ></i>
+              <i class="fas fa-redo-alt" onClick={() => turn()}></i>
+              <i class="fas fa-sync-alt" onClick={() => turnfast()}></i>
+              <i class="far fa-caret-square-left" onClick={() => oposite()}></i>
+              <i
+                class="fas fa-caret-square-left"
+                onClick={() => opositefast()}
+              ></i>
+            </div>
           </div>
+
+          <div className="cakarl">
+            <h5>Çakarlar</h5>
+            <div className="iler">
+              <i class="fas fa-window-close" onClick={() => kapat()}></i>
+              <i class="fas fa-angle-right" onClick={() => acık()}></i>
+              <i class="fas fa-angle-double-right" onClick={() => hızlı()}></i>
+            </div>
+          </div>
+
 
           <div className="dortlu">
             <h5>Dörtlü</h5>
-            <i               class="fas fa-window-close"
- onClick={() => dortlu()}></i>
-            <i class="fas fa-exclamation-triangle" onClick={() => dortluac()}></i>
+            <div className="iler">
+              <i class="fas fa-window-close" onClick={() => dortlu()}></i>
+              <i
+                class="fas fa-exclamation-triangle"
+                onClick={() => dortluac()}
+              ></i>
+            </div>
           </div>
 
           <div className="far">
             <h5>Farlar</h5>
-            <i               class="fas fa-window-close"
- onClick={() => kapaf()}></i>
-            <i class="far fa-lightbulb" onClick={() => kısa()}></i>
-            <i class="fas fa-lightbulb" onClick={() => uzun()}></i>
-            <i class="fas fa-bolt" onClick={() => sele()}></i>
+            <div className="iler">
+              <i class="fas fa-window-close" onClick={() => kapaf()}></i>
+              <i class="far fa-lightbulb" onClick={() => kısa()}></i>
+              <i class="fas fa-lightbulb" onClick={() => uzun()}></i>
+              <i class="fas fa-bolt" onClick={() => sele()}></i>
+            </div>
           </div>
         </div>
 
         <div className="audio">
           <div className="datsi">
             <h5>Dat - İkaz</h5>
-
-            <audio id="datSound" src={dat}></audio>
-            <i
-              class="fas fa-bullhorn"
-              id="datButton "
-              onMouseDown={() => datPlay()}
-              onMouseUp={() => datStop()}
-            ></i>
-
             <audio id="sirenSound" src={siren}></audio>
-            <i class="fas fa-volume-off" id="datButton " onClick={() => sirenPlay()}>
-              
-            </i>
+            <audio id="datSound" src={dat}></audio>
+            <div className="iler">
+              <i
+                class="fas fa-bullhorn"
+                id="datButton "
+                onMouseDown={() => datPlay()}
+                onMouseUp={() => datStop()}
+              ></i>
+
+              <i
+                class="fas fa-volume-off"
+                id="datButton "
+                onClick={() => sirenPlay()}
+              ></i>
+            </div>
           </div>
 
           <div className="tels">
             <h5>Telsiz</h5>
 
             <audio id="telsizSound" src={telsiz}></audio>
-            <i class="fas fa-broadcast-tower" id="telsizButton " onClick={() => telsizPlay()}>
-              
-            </i>
-            <i
-              class="fas fa-window-close"
-              id="telsizStopButton "
-              onClick={() => telsizStopPlay()}
-            ></i>
+
+            <div className="iler">
+              <i
+                class="fas fa-broadcast-tower"
+                id="telsizButton "
+                onClick={() => telsizPlay()}
+              ></i>
+              <i
+                class="fas fa-window-close"
+                id="telsizStopButton "
+                onClick={() => telsizStopPlay()}
+              ></i>
+            </div>
           </div>
 
           <div className="srn">
             <h5>Siren</h5>
+            <audio id="ambSound" src={amb}></audio>
 
             <audio id="polSound" src={pol}></audio>
-            <i class="fas fa-headphones" id="polButton " onClick={() => polPlay()}>
-              
-            </i>
+            <div className="iler">
+              <i
+                class="fas fa-headphones"
+                id="polButton "
+                onClick={() => polPlay()}
+              ></i>
 
-            <audio id="ambSound" src={amb}></audio>
-            <i class="fas fa-headphones-alt" id="ambButton " onClick={() => ambPlay()}>
-              
-            </i>
+              <i
+                class="fas fa-headphones-alt"
+                id="ambButton "
+                onClick={() => ambPlay()}
+              ></i>
 
-            <i class="fas fa-window-close" onClick={() => srnStop()}></i>
+              <i class="fas fa-window-close" onClick={() => srnStop()}></i>
+            </div>
           </div>
         </div>
 
@@ -570,7 +599,7 @@ function App() {
     </div>
   );
 
-  // start();
+  start();
 }
 
 export default App;
