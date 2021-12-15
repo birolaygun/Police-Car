@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useCallback, useRef, useState } from "react";
 import car from "./PoliceCar.gif";
 import garage from "./garage.jpg";
 import dat from "./dat.mp3";
@@ -6,8 +7,22 @@ import pol from "./pol.mp3";
 import siren from "./siren.mp3";
 import telsiz from "./telsiz.mp3";
 import amb from "./amb.mp3";
+import { useLongPress } from "use-long-press";
 
 function App() {
+  const [enabled, setEnabled] = useState(true);
+  const callback = useCallback(() => {
+    console.log("Long pressed!");
+    document.getElementById("datSound").play();
+  }, []);
+  const bind = useLongPress(enabled ? callback : null, {
+    onFinish: () => document.getElementById("datSound").pause(),
+
+    threshold: 1,
+    captureEvent: true,
+    cancelOnMovement: false,
+  });
+
   const kapat = () => {
     document.getElementById("cakar1").className = "aa";
     document.getElementById("cakar2").className = "aa";
@@ -320,6 +335,49 @@ function App() {
     document.getElementById("sağKısa").className = "sağKısa";
     far = 2;
   };
+  const normalRenk = (e) => {
+    document.querySelector(" .teeppee i:nth-child(1)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(2)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(3)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(4)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(5)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(6)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(7)  ").style.opacity = "1";
+    document.querySelector(" .teeppee i:nth-child(8)  ").style.opacity = "1";
+    e.target.style.opacity = "0.2";
+  };
+  const normalRenkT = (e) => {
+    document.querySelector(" .caakkaarr i:nth-child(1)  ").style.opacity = "1";
+    document.querySelector(" .caakkaarr i:nth-child(2)  ").style.opacity = "1";
+    document.querySelector(" .caakkaarr i:nth-child(3)  ").style.opacity = "1";
+    e.target.style.opacity = "0.2";
+  };
+
+  const normalRenkTre = (e) => {
+    document.querySelector(" .doorrtt i:nth-child(1) ").style.opacity = "1";
+    document.querySelector(" .doorrtt i:nth-child(2) ").style.opacity = "1";
+    e.target.style.opacity = "0.2";
+  };
+
+  const normalRenkFar = (e) => {
+    document.querySelector(" .faarr i:nth-child(1)  ").style.opacity = "1";
+    document.querySelector(" .faarr i:nth-child(2)  ").style.opacity = "1";
+    document.querySelector(" .faarr i:nth-child(3)  ").style.opacity = "1";
+    document.querySelector(" .faarr i:nth-child(4)  ").style.opacity = "1";
+    e.target.style.opacity = "0.2";
+  };
+  const normalRenkSrn = (e) => {
+    document.querySelector(" .ssrrnn i:nth-child(1)  ").style.opacity = "1";
+    document.querySelector(" .ssrrnn i:nth-child(2)  ").style.opacity = "1";
+    document.querySelector(" .ssrrnn i:nth-child(3)  ").style.opacity = "1";
+    e.target.style.opacity = "0.2";
+  };
+  const normalRenkTel = (e) => {
+    document.querySelector(" .teellss i:nth-child(1)  ").style.opacity = "1";
+    document.querySelector(" .teellss i:nth-child(2)  ").style.opacity = "1";
+    e.target.style.opacity = "0.2";
+  };
+
   const sele = () => {
     if (far === 2) {
       uzun();
@@ -394,7 +452,7 @@ function App() {
   };
   setTimeout(() => {
     start();
-  }, 1000);
+  }, 500);
 
   const datPlay = () => {
     document.getElementById("datSound").play();
@@ -430,61 +488,187 @@ function App() {
     document.getElementById("polSound").load();
   };
 
+var elem = document.documentElement;
+
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) {
+    /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) {
+    /* IE11 */
+    elem.msRequestFullscreen();
+  }
+  setFull(!full)
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+  }
+    setFull(!full)
+
+}
+const [full, setFull] = useState(false)
+
   return (
-    <div className="App" style={{ backgroundImage: `url(${garage})` }}>
+    <div className="App" id="App" style={{ backgroundImage: `url(${garage})` }}>
+      <button
+        className={full ? "notFull" : "full"}
+        onClick={() => (full ? closeFullscreen() : openFullscreen())}
+      >
+        {full ? "Küçük Ekran" : "Tam Ekran"}
+      </button>
       <div className="container">
         <div className="kumanda">
           <div className="tepe">
             <h5>Tepe Lambası</h5>
-            <div className="iler">
-              <i class="fas fa-window-close" onClick={() => tkapat()}></i>
-              <i class="fas fa-grip-lines" onClick={() => tacık()}></i>
+            <div className="iler teeppee">
+              <i
+                class="fas fa-window-close"
+                style={{ opacity: "0.2" }}
+                onClick={(e) => {
+                  tkapat();
+                  normalRenk(e);
+                }}
+              ></i>
+              <i
+                class="fas fa-grip-lines"
+                onClick={(e) => {
+                  tacık();
+                  normalRenk(e);
+                }}
+              ></i>
               <i
                 class="far fa-arrow-alt-circle-up"
-                onClick={() => sagsol()}
+                onClick={(e) => {
+                  sagsol();
+                  normalRenk(e);
+                }}
               ></i>
               <i
                 class="fas fa-arrow-alt-circle-up"
-                onClick={() => sagsolhızlı()}
+                onClick={(e) => {
+                  sagsolhızlı();
+                  normalRenk(e);
+                }}
               ></i>
-              <i class="fas fa-redo-alt" onClick={() => turn()}></i>
-              <i class="fas fa-sync-alt" onClick={() => turnfast()}></i>
-              <i class="far fa-caret-square-left" onClick={() => oposite()}></i>
+              <i
+                class="fas fa-redo-alt"
+                onClick={(e) => {
+                  turn();
+                  normalRenk(e);
+                }}
+              ></i>
+              <i
+                class="fas fa-sync-alt"
+                onClick={(e) => {
+                  turnfast();
+                  normalRenk(e);
+                }}
+              ></i>
+              <i
+                class="far fa-caret-square-left"
+                onClick={(e) => {
+                  oposite();
+                  normalRenk(e);
+                }}
+              ></i>
               <i
                 class="fas fa-caret-square-left"
-                onClick={() => opositefast()}
+                onClick={(e) => {
+                  opositefast();
+                  normalRenk(e);
+                }}
               ></i>
             </div>
           </div>
 
           <div className="cakarl">
             <h5>Çakarlar</h5>
-            <div className="iler">
-              <i class="fas fa-window-close" onClick={() => kapat()}></i>
-              <i class="fas fa-angle-right" onClick={() => acık()}></i>
-              <i class="fas fa-angle-double-right" onClick={() => hızlı()}></i>
+            <div className="iler caakkaarr">
+              <i
+                style={{ opacity: "0.2" }}
+                class="fas fa-window-close"
+                onClick={(e) => {
+                  kapat();
+                  normalRenkT(e);
+                }}
+              ></i>
+              <i
+                class="fas fa-angle-right"
+                onClick={(e) => {
+                  acık();
+                  normalRenkT(e);
+                }}
+              ></i>
+              <i
+                class="fas fa-angle-double-right"
+                onClick={(e) => {
+                  hızlı();
+                  normalRenkT(e);
+                }}
+              ></i>
             </div>
           </div>
 
-
           <div className="dortlu">
             <h5>Dörtlü</h5>
-            <div className="iler">
-              <i class="fas fa-window-close" onClick={() => dortlu()}></i>
+            <div className="iler doorrtt">
+              <i
+                style={{ opacity: "0.2" }}
+                class="fas fa-window-close"
+                onClick={(e) => {
+                  dortlu();
+                  normalRenkTre(e);
+                }}
+              ></i>
               <i
                 class="fas fa-exclamation-triangle"
-                onClick={() => dortluac()}
+                onClick={(e) => {
+                  dortluac();
+                  normalRenkTre(e);
+                }}
               ></i>
             </div>
           </div>
 
           <div className="far">
             <h5>Farlar</h5>
-            <div className="iler">
-              <i class="fas fa-window-close" onClick={() => kapaf()}></i>
-              <i class="far fa-lightbulb" onClick={() => kısa()}></i>
-              <i class="fas fa-lightbulb" onClick={() => uzun()}></i>
-              <i class="fas fa-bolt" onClick={() => sele()}></i>
+            <div className="iler faarr">
+              <i
+                style={{ opacity: "0.2" }}
+                class="fas fa-window-close"
+                onClick={(e) => {
+                  kapaf();
+                  normalRenkFar(e);
+                }}
+              ></i>
+              <i
+                class="far fa-lightbulb"
+                onClick={(e) => {
+                  kısa();
+                  normalRenkFar(e);
+                }}
+              ></i>
+              <i
+                class="fas fa-lightbulb"
+                onClick={(e) => {
+                  uzun();
+                  normalRenkFar(e);
+                }}
+              ></i>
+              <i
+                class="fas fa-bolt"
+                onClick={(e) => {
+                  sele();
+                }}
+              ></i>
             </div>
           </div>
         </div>
@@ -495,12 +679,7 @@ function App() {
             <audio id="sirenSound" src={siren}></audio>
             <audio id="datSound" src={dat}></audio>
             <div className="iler">
-              <i
-                class="fas fa-bullhorn"
-                id="datButton "
-                onMouseDown={() => datPlay()}
-                onMouseUp={() => datStop()}
-              ></i>
+              <i class="fas fa-bullhorn" id="datButton " {...bind}></i>
 
               <i
                 class="fas fa-volume-off"
@@ -515,16 +694,23 @@ function App() {
 
             <audio id="telsizSound" src={telsiz}></audio>
 
-            <div className="iler">
+            <div className="iler teellss">
               <i
                 class="fas fa-broadcast-tower"
                 id="telsizButton "
-                onClick={() => telsizPlay()}
+                onClick={(e) => {
+                  telsizPlay();
+                  normalRenkTel(e);
+                }}
               ></i>
               <i
+                style={{ opacity: "0.2" }}
                 class="fas fa-window-close"
                 id="telsizStopButton "
-                onClick={() => telsizStopPlay()}
+                onClick={(e) => {
+                  telsizStopPlay();
+                  normalRenkTel(e);
+                }}
               ></i>
             </div>
           </div>
@@ -534,24 +720,36 @@ function App() {
             <audio id="ambSound" src={amb}></audio>
 
             <audio id="polSound" src={pol}></audio>
-            <div className="iler">
+            <div className="iler ssrrnn">
               <i
                 class="fas fa-headphones"
                 id="polButton "
-                onClick={() => polPlay()}
+                onClick={(e) => {
+                  polPlay();
+                  normalRenkSrn(e);
+                }}
               ></i>
 
               <i
                 class="fas fa-headphones-alt"
                 id="ambButton "
-                onClick={() => ambPlay()}
+                onClick={(e) => {
+                  ambPlay();
+                  normalRenkSrn(e);
+                }}
               ></i>
 
-              <i class="fas fa-window-close" onClick={() => srnStop()}></i>
+              <i
+                style={{ opacity: "0.2" }}
+                class="fas fa-window-close"
+                onClick={(e) => {
+                  srnStop();
+                  normalRenkSrn(e);
+                }}
+              ></i>
             </div>
           </div>
         </div>
-
         <div className="cardiv">
           <div className="car-item">
             <img className="car" src={car} alt="as" />
@@ -587,6 +785,8 @@ function App() {
             <div id="cakar15"></div>
             <div id="cakar16"></div>
 
+            <a href="https://birolaygun.netlify.app/" className="link"></a>
+
             <div id="sağSinyal"></div>
             <div id="solSinyal"></div>
             <div id="solUzun"></div>
@@ -598,7 +798,6 @@ function App() {
       </div>
     </div>
   );
-
 }
 
 export default App;

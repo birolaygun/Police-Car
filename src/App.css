@@ -3,12 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-.App{
-    background-position: center;
+.App {
+  background-position: center;
   background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .container {
   width: 100vw;
@@ -18,7 +17,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed; */
   margin: 0;
-  
 }
 .cardiv {
   width: 60vw;
@@ -45,245 +43,228 @@
   position: absolute;
 }
 
-
 .tepe1 {
   position: absolute;
   top: 7%;
   left: 26%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     -40px 0px 100px 30px rgba(255, 0, 0, 0.904),
     -80px -80px 100px 30px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   height: 2%;
-   animation: tepe31 1.5s infinite;
+  animation: tepe31 1.5s infinite;
 }
 .tepe2 {
   position: absolute;
   top: 7%;
   left: 33.5%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     0px -80px 100px 30px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   width: 5%;
   height: 2%;
-     animation: tepe32 1.5s infinite;
-
+  animation: tepe32 1.5s infinite;
 }
 .tepe3 {
   position: absolute;
   top: 7%;
   left: 39%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     0px -80px 150px 20px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   width: 5%;
   height: 2%;
-     animation: tepe33 1.5s infinite;
-
+  animation: tepe33 1.5s infinite;
 }
 .tepe4 {
   position: absolute;
   top: 7%;
   left: 44.5%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     0px -80px 150px 20px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   width: 5%;
   height: 2%;
-     animation: tepe34 1.5s infinite;
-
+  animation: tepe34 1.5s infinite;
 }
 .tepe5 {
   position: absolute;
   top: 7%;
   left: 50%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     0px -80px 100px 30px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   width: 5%;
   height: 2%;
-       animation: tepe35 1.5s infinite;
-
+  animation: tepe35 1.5s infinite;
 }
 .tepe6 {
   position: absolute;
   top: 7%;
   left: 55.5%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     0px -80px 150px 20px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   width: 5%;
   height: 2%;
-         animation: tepe36 1.5s infinite;
-
+  animation: tepe36 1.5s infinite;
 }
 .tepe7 {
   position: absolute;
   top: 7%;
   left: 61%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     0px -80px 100px 30px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   width: 5%;
   height: 2%;
-         animation: tepe37 1.5s infinite;
-
+  animation: tepe37 1.5s infinite;
 }
 .tepe8 {
   position: absolute;
   top: 7%;
   left: 67%;
- background: rgb(255, 0, 0);
+  background: rgb(255, 0, 0);
   box-shadow: 0px 0px 3px 2px rgba(255, 0, 0, 0.904),
     0px 0px 20px 10px rgba(255, 0, 0, 0.904),
     40px 0px 100px 30px rgba(255, 0, 0, 0.904),
     80px -80px 100px 30px rgba(255, 0, 0, 0.904),
-    0px 0px 200px 10px rgba(255, 0, 0, 0.904);  width: 6%;
+    0px 0px 200px 10px rgba(255, 0, 0, 0.904);
+  width: 6%;
   height: 2%;
   width: 6%;
   height: 2%;
-        animation: tepe38 1.5s infinite;
-
+  animation: tepe38 1.5s infinite;
 }
 
 .tepe11 {
   position: absolute;
   top: 7%;
   left: 26%;
- background: rgb(25, 0, 255);
-  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    -40px 0px 100px 30px rgb(25, 0, 255),
-    -80px -80px 100px 30px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);  width: 6%;
-    width: 6%;
+  background: rgb(25, 0, 255);
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    -40px 0px 100px 30px rgb(25, 0, 255), -80px -80px 100px 30px rgb(25, 0, 255),
+    0px 0px 200px 10px rgb(25, 0, 255);
+  width: 6%;
+  width: 6%;
   width: 6%;
   height: 2%;
-         animation: tepe41 1.5s infinite;
-
+  animation: tepe41 1.5s infinite;
 }
 .tepe12 {
   position: absolute;
   top: 7%;
   left: 33.5%;
- background: rgb(25, 0, 255);
- background: rgb(25, 0, 255);
-    box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    0px -80px 150px 20px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);   width: 5%;
+  background: rgb(25, 0, 255);
+  background: rgb(25, 0, 255);
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    0px -80px 150px 20px rgb(25, 0, 255), 0px 0px 200px 10px rgb(25, 0, 255);
+  width: 5%;
   width: 5%;
   height: 2%;
-         animation: tepe42 1.5s infinite;
-
+  animation: tepe42 1.5s infinite;
 }
 .tepe13 {
   position: absolute;
   top: 7%;
   left: 39%;
-    box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    0px -80px 150px 20px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255); 
-     width: 6%;
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    0px -80px 150px 20px rgb(25, 0, 255), 0px 0px 200px 10px rgb(25, 0, 255);
+  width: 6%;
 
- background: rgb(25, 0, 255);
+  background: rgb(25, 0, 255);
   width: 5%;
   height: 2%;
-         animation: tepe43 1.5s infinite;
-
+  animation: tepe43 1.5s infinite;
 }
 .tepe14 {
   position: absolute;
   top: 7%;
   left: 44.5%;
- background: rgb(25, 0, 255);
-    box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    0px -80px 150px 20px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);   width: 5%;
+  background: rgb(25, 0, 255);
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    0px -80px 150px 20px rgb(25, 0, 255), 0px 0px 200px 10px rgb(25, 0, 255);
+  width: 5%;
   height: 2%;
-         animation: tepe44 1.5s infinite;
-
+  animation: tepe44 1.5s infinite;
 }
 .tepe15 {
   position: absolute;
   top: 7%;
   left: 50%;
- background: rgb(25, 0, 255);
-    box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    0px -80px 150px 20px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);   width: 5%;
+  background: rgb(25, 0, 255);
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    0px -80px 150px 20px rgb(25, 0, 255), 0px 0px 200px 10px rgb(25, 0, 255);
+  width: 5%;
   height: 2%;
-     animation: tepe45 1.5s infinite;
-
+  animation: tepe45 1.5s infinite;
 }
 .tepe16 {
   position: absolute;
   top: 7%;
   left: 55.5%;
- background: rgb(25, 0, 255);
-    box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    0px -80px 150px 20px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);   width: 5%;
+  background: rgb(25, 0, 255);
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    0px -80px 150px 20px rgb(25, 0, 255), 0px 0px 200px 10px rgb(25, 0, 255);
+  width: 5%;
   height: 2%;
-     animation: tepe46 1.5s infinite;
-
+  animation: tepe46 1.5s infinite;
 }
 .tepe17 {
   position: absolute;
   top: 7%;
   left: 61%;
- background: rgb(25, 0, 255);
-  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    0px -80px 100px 30px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);  width: 6%;
+  background: rgb(25, 0, 255);
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    0px -80px 100px 30px rgb(25, 0, 255), 0px 0px 200px 10px rgb(25, 0, 255);
+  width: 6%;
   height: 2%;
-     animation: tepe47 1.5s infinite;
-
+  animation: tepe47 1.5s infinite;
 }
 .tepe18 {
   position: absolute;
   top: 7%;
   left: 67%;
- background: rgb(25, 0, 255);
+  background: rgb(25, 0, 255);
   box-shadow: 0px 0px 3px 2px rgba(25, 0, 255, 0.904),
     0px 0px 20px 10px rgba(25, 0, 255, 0.904),
     40px 0px 60px 20px rgba(25, 0, 255, 0.904),
-    0px 0px 200px 10px rgba(25, 0, 255, 0.904);  
+    0px 0px 200px 10px rgba(25, 0, 255, 0.904);
   width: 6%;
   height: 2%;
-     animation: tepe48 1.5s infinite;
+  animation: tepe48 1.5s infinite;
 }
-
 
 .cakar1 {
   position: absolute;
   top: 62%;
   left: 28.6%;
   background: rgb(25, 0, 255);
-  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255),
-    0px 0px 20px 10px rgb(25, 0, 255),
-    40px 0px 100px 30px rgb(25, 0, 255),
-    80px -80px 100px 30px rgb(25, 0, 255),
-    0px 0px 200px 10px rgb(25, 0, 255);  width: 6%;
+  box-shadow: 0px 0px 3px 2px rgb(25, 0, 255), 0px 0px 20px 10px rgb(25, 0, 255),
+    40px 0px 100px 30px rgb(25, 0, 255), 80px -80px 100px 30px rgb(25, 0, 255),
+    0px 0px 200px 10px rgb(25, 0, 255);
+  width: 6%;
   width: 7.8%;
   height: 1%;
 
@@ -300,7 +281,6 @@
   width: 7.8%;
   height: 1%;
   animation: cakar1 1.5s infinite;
-
 }
 .cakar3 {
   position: absolute;
@@ -313,9 +293,6 @@
   width: 7.8%;
   height: 1%;
   animation: cakar1 1.5s infinite;
-
-  
-
 }
 .cakar4 {
   position: absolute;
@@ -432,28 +409,24 @@
   top: 52%;
   left: 90.9%;
   background-color: rgba(245, 0, 0, 0.507);
-  
+
   height: 5%;
-background: rgba(240, 156, 125, 0.164);
+  background: rgba(240, 156, 125, 0.164);
   height: 5%;
   box-shadow: 0px 0px 5px 4px rgb(240, 156, 125),
-10px 0px 50px 20px rgb(240, 156, 125)
-;
-    animation: dortlu 1s infinite;
-
+    10px 0px 50px 20px rgb(240, 156, 125);
+  animation: dortlu 1s infinite;
 }
 
 .solSinyal {
   position: absolute;
   top: 52%;
   left: 7.8%;
-background: rgba(240, 156, 125, 0.164);
+  background: rgba(240, 156, 125, 0.164);
   height: 5%;
-    box-shadow: 0px 0px 5px 4px rgb(240, 156, 125),
--10px 0px 50px 20px rgb(240, 156, 125);
+  box-shadow: 0px 0px 5px 4px rgb(240, 156, 125),
+    -10px 0px 50px 20px rgb(240, 156, 125);
   animation: dortlu 1s infinite;
-
-
 }
 .solUzun {
   position: absolute;
@@ -463,11 +436,11 @@ background: rgba(240, 156, 125, 0.164);
   width: 6%;
   height: 0%;
   border-radius: 3px;
-  box-shadow: 0px -1px 5px 5px rgba(255, 255, 255, 0.950), 
-        0px 0px 20px 10px rgba(255, 255, 255, 0.950),
-        0px 0px 20px 10px rgba(255, 255, 255, 0.950),
-        0px 0px 100px 40px rgba(255, 255, 255, 0.950),
-         0px 5px 5px 5px rgba(255, 255, 255, 0.950);
+  box-shadow: 0px -1px 5px 5px rgba(255, 255, 255, 0.95),
+    0px 0px 20px 10px rgba(255, 255, 255, 0.95),
+    0px 0px 20px 10px rgba(255, 255, 255, 0.95),
+    0px 0px 100px 40px rgba(255, 255, 255, 0.95),
+    0px 5px 5px 5px rgba(255, 255, 255, 0.95);
 }
 .sağUzun {
   position: absolute;
@@ -477,16 +450,14 @@ background: rgba(240, 156, 125, 0.164);
   width: 6%;
   height: 0%;
   border-radius: 3px;
-        box-shadow: 0px -1px 5px 5px rgba(255, 255, 255, 0.950), 
-        0px 0px 20px 10px rgba(255, 255, 255, 0.950),
-        0px 0px 20px 10px rgba(255, 255, 255, 0.950),
-        0px 0px 100px 40px rgba(255, 255, 255, 0.950),
-         0px 5px 5px 5px rgba(255, 255, 255, 0.950);
-    /* 80px 100px 85px 30px rgb(255, 255, 255), 
+  box-shadow: 0px -1px 5px 5px rgba(255, 255, 255, 0.95),
+    0px 0px 20px 10px rgba(255, 255, 255, 0.95),
+    0px 0px 20px 10px rgba(255, 255, 255, 0.95),
+    0px 0px 100px 40px rgba(255, 255, 255, 0.95),
+    0px 5px 5px 5px rgba(255, 255, 255, 0.95);
+  /* 80px 100px 85px 30px rgb(255, 255, 255), 
     -80px 100px 85px 30px rgb(255, 255, 255), 
     0px 100px 85px 30px rgb(255, 255, 255) */
-
-
 }
 .sağKısa {
   position: absolute;
@@ -496,10 +467,10 @@ background: rgba(240, 156, 125, 0.164);
   width: 3%;
   height: 0%;
   border-radius: 3px;
-      box-shadow: 0px 1px 5px 5px rgba(255, 255, 255, 0.950),
-    80px 100px 85px 30px rgb(255, 255, 255), 
-    -80px 100px 85px 30px rgb(255, 255, 255), 
-    0px 100px 85px 30px rgb(255, 255, 255); 
+  box-shadow: 0px 1px 5px 5px rgba(255, 255, 255, 0.95),
+    80px 100px 85px 30px rgb(255, 255, 255),
+    -80px 100px 85px 30px rgb(255, 255, 255),
+    0px 100px 85px 30px rgb(255, 255, 255);
 }
 .solKısa {
   position: absolute;
@@ -508,570 +479,1252 @@ background: rgba(240, 156, 125, 0.164);
   width: 3%;
   height: 0%;
   border-radius: 3px;
-      box-shadow: 0px 1px 5px 5px rgba(255, 255, 255, 0.950),
-    80px 100px 85px 30px rgb(255, 255, 255), 
-    -80px 100px 85px 30px rgb(255, 255, 255), 
-    0px 100px 85px 30px rgb(255, 255, 255); 
+  box-shadow: 0px 1px 5px 5px rgba(255, 255, 255, 0.95),
+    80px 100px 85px 30px rgb(255, 255, 255),
+    -80px 100px 85px 30px rgb(255, 255, 255),
+    0px 100px 85px 30px rgb(255, 255, 255);
 }
-
+.link {
+  z-index: 1212121211231324574;
+  position: absolute;
+  top: 75%;
+  left: 29%;
+  width: 45%;
+  height: 12%;
+  cursor: pointer;
+}
 @keyframes tepe31 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe32 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
- 
-  100%{opacity: 0;}
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe33 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
 
-
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe34 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
-    
-  100%{opacity: 0;}
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe35 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
-
-
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe36 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe37 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe38 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes tepe41 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe42 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe43 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
 
-
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe44 {
-  0%{opacity: 0;}
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
 
-
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe45 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
-    
-  100%{opacity: 0;}
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe46 {
+  0% {
+    opacity: 0;
+  }
 
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
-
-
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe47 {
+  0% {
+    opacity: 0;
+  }
 
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
- 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe48 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
-
 
 @keyframes tepe11 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe12 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
-  100%{opacity: 0;}
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe13 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe14 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
-    
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe15 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe16 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
- 
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe17 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe18 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes tepe25 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe26 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
-  100%{opacity: 0;}
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe27 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe28 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
-    
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe21 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe22 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
- 
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe23 {
+  0% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe24 {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 @keyframes tepe1 {
-  0%{opacity: 0;}
- 
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
- 
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
+
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
+
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe2 {
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
-   100%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
+
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe3 {
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  9%{opacity: 1;}
-  12%{opacity: 0;}
- 
-  12%{opacity: 0;}
-  15%{opacity: 1;}
-  21%{opacity: 1;}
-  25%{opacity: 0;}
- 
-  25%{opacity: 0;}
-  28%{opacity: 1;}
-  34%{opacity: 1;}
-  37%{opacity: 0;}
- 
-  37%{opacity: 0;}
-  40%{opacity: 1;}
-  46%{opacity: 1;}
-  50%{opacity: 0;}
-   100%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  9% {
+    opacity: 1;
+  }
+  12% {
+    opacity: 0;
+  }
 
+  12% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  21% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 1;
+  }
+  37% {
+    opacity: 0;
+  }
+
+  37% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  46% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes tepe4 {
-  0%{opacity: 0;}
- 
-  50%{opacity: 0;}
-  53%{opacity: 1;}
-  59%{opacity: 1;}
-  62%{opacity: 0;}
- 
-  62%{opacity: 0;}
-  65%{opacity: 1;}
-  71%{opacity: 1;}
-  75%{opacity: 0;}
- 
-  75%{opacity: 0;}
-  78%{opacity: 1;}
-  84%{opacity: 1;}
-  87%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
 
-  87%{opacity: 0;}
-  90%{opacity: 1;}
-  96%{opacity: 1;}
-  100%{opacity: 0;}
+  50% {
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  59% {
+    opacity: 1;
+  }
+  62% {
+    opacity: 0;
+  }
+
+  62% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  71% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0;
+  }
+  78% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 1;
+  }
+  87% {
+    opacity: 0;
+  }
+
+  87% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
-
 
 @keyframes cakar1 {
-  0%{opacity: 0;}
-  3%{opacity: 1;}
-  14%{opacity: 1;}
-  17%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  14% {
+    opacity: 1;
+  }
+  17% {
+    opacity: 0;
+  }
 
-  17%{opacity: 0;}
-  20%{opacity: 1;}
-  31%{opacity: 1;}
-  34%{opacity: 0;}
+  17% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  31% {
+    opacity: 1;
+  }
+  34% {
+    opacity: 0;
+  }
 
-  34%{opacity: 0;}
-  37%{opacity: 1;}
-  48%{opacity: 1;}
-  51%{opacity: 0;}
+  34% {
+    opacity: 0;
+  }
+  37% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
 
-  100%{opacity: 0;}
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes cakar2 {
-  0%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
 
-  51%{opacity: 0;}
-  54%{opacity: 1;}
-  65%{opacity: 1;}
-  68%{opacity: 0;}
+  51% {
+    opacity: 0;
+  }
+  54% {
+    opacity: 1;
+  }
+  65% {
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
 
-  68%{opacity: 0;}
-  71%{opacity: 1;}
-  81%{opacity: 1;}
-  84%{opacity: 0;}
+  68% {
+    opacity: 0;
+  }
+  71% {
+    opacity: 1;
+  }
+  81% {
+    opacity: 1;
+  }
+  84% {
+    opacity: 0;
+  }
 
-  84%{opacity: 0;}
-  87%{opacity: 1;}
-  97%{opacity: 1;}
-  100%{opacity: 0;}
+  84% {
+    opacity: 0;
+  }
+  87% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes dortlu {
-  0%{opacity: 0;}
+  0% {
+    opacity: 0;
+  }
 
-  5%{opacity: 1;}
-  55%{opacity: 1;}
-  60%{opacity: 1;}
-  100%{opacity: 0;}
+  5% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fulll {
+  0% {
+    background-color: rgba(255, 255, 255, 0.254);
+    color: wheat
+  }
+
+  5% {
+     background-color: rgba(255, 255, 255, 0.254);
+    color: wheat
+  }
+  10% {
+    background-color: rgba(255, 255, 255, 0.556);
+    color: rgb(46, 37, 21)
+  }
+  15% {
+     background-color: rgba(255, 255, 255, 0.254);
+    color: wheat
+  }
+    20% {
+    background-color: rgba(255, 255, 255, 0.556);
+    color: rgb(46, 37, 21)
+    }
+      25% {
+     background-color: rgba(255, 255, 255, 0.254);
+    color: wheat
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.254);
+    color: wheat  }
 }
 
-#play-pause-button{
+#play-pause-button {
   font-size: 50px;
   cursor: pointer;
 }
 
-.kumanda{
+.kumanda {
   z-index: 121211;
   width: 100%;
   position: absolute;
@@ -1079,11 +1732,9 @@ background: rgba(240, 156, 125, 0.164);
   flex-direction: row;
   justify-content: center;
   left: 0;
-    flex-wrap: wrap;
-
-
+  flex-wrap: wrap;
 }
-.audio{
+.audio {
   z-index: 121211;
   position: absolute;
   bottom: 0;
@@ -1093,48 +1744,57 @@ background: rgba(240, 156, 125, 0.164);
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
-.audio > div{
-  background-color: rgb(36, 36, 36);
-  border-radius: 10px;
-  margin: 5px;
-    padding: 5px;
-
-}
-.kumanda > div{
+.audio > div {
   background-color: rgb(36, 36, 36);
   border-radius: 10px;
   margin: 5px;
   padding: 5px;
 }
-h5{
+.kumanda > div {
+  background-color: rgb(36, 36, 36);
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+h5 {
   color: wheat;
   text-align: center;
 }
 
-i{
-    color: wheat;
-    cursor: pointer;
-    margin: 5px;
-}
-i:hover{
-   margin-top: 3px;
-}
-.iler{
-  display: flex;
-  justify-content: space-around;
-  
+i {
+  color: wheat;
+  cursor: pointer;
+  margin: 5px;
 }
 
-@media screen and (max-width: 500px) {
-  h5{
+.iler {
+  display: flex;
+  justify-content: space-around;
+}
+.full, .notFull {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.234);
+  color: wheat;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+  left: 0;
+  top: 50px;
+  height: fit-content;
+  z-index: 1212123231;
+}
+.full{
+   animation: fulll 4s infinite;
+}
+@media screen and (max-width: 900px) {
+  h5 {
     display: none;
   }
-.iler{
-  display: flex;
-  justify-content: space-around;
-}
-
+  .iler {
+    display: flex;
+    justify-content: space-around;
+  }
+ 
 }
