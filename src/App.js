@@ -519,10 +519,14 @@ const [full, setFull] = useState(false)
   return (
     <div className="App" id="App" style={{ backgroundImage: `url(${garage})` }}>
       <button
-        className={full ? "notFull" : "full"}
+        className={full ? "notFull btn" : " btn full"}
         onClick={() => (full ? closeFullscreen() : openFullscreen())}
       >
-        {full ? "Küçük Ekran" : "Tam Ekran"}
+        {full ? (
+          <i class="fas fa-compress-alt"></i>
+        ) : (
+          <i class="fas fa-expand-alt"></i>
+        )}
       </button>
       <div className="container">
         <div className="kumanda">

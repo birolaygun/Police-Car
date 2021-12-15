@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+*:focus {
+  box-shadow: none !important;
+}
 .App {
   background-position: center;
   background-size: cover;
@@ -1690,33 +1693,34 @@
 }
 @keyframes fulll {
   0% {
-    background-color: rgba(255, 255, 255, 0.254);
-    color: wheat
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
   }
 
   5% {
-     background-color: rgba(255, 255, 255, 0.254);
-    color: wheat
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
   }
   10% {
     background-color: rgba(255, 255, 255, 0.556);
-    color: rgb(46, 37, 21)
+    color: rgb(46, 37, 21);
   }
   15% {
-     background-color: rgba(255, 255, 255, 0.254);
-    color: wheat
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
   }
-    20% {
+  20% {
     background-color: rgba(255, 255, 255, 0.556);
-    color: rgb(46, 37, 21)
-    }
-      25% {
-     background-color: rgba(255, 255, 255, 0.254);
-    color: wheat
+    color: rgb(46, 37, 21);
+  }
+  25% {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
   }
   100% {
-    background-color: rgba(255, 255, 255, 0.254);
-    color: wheat  }
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
+  }
 }
 
 #play-pause-button {
@@ -1773,20 +1777,22 @@ i {
   display: flex;
   justify-content: space-around;
 }
-.full, .notFull {
+.full,
+.notFull {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.234);
+  background-color: rgba(0, 0, 0, 0.8);
   color: wheat;
   font-size: 1.5rem;
   cursor: pointer;
   border-radius: 3px;
   left: 0;
   top: 50px;
-  height: fit-content;
   z-index: 1212123231;
+  margin-left: 10px;
+  padding: 0;
 }
-.full{
-   animation: fulll 4s infinite;
+.full {
+  animation: fulll 4s infinite;
 }
 @media screen and (max-width: 900px) {
   h5 {
@@ -1796,5 +1802,4 @@ i {
     display: flex;
     justify-content: space-around;
   }
- 
 }
